@@ -1,0 +1,307 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+
+}
+
+header {
+    background-color: white;
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo_image {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    position: left;
+    top: 0.7rem;
+    left: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+main {
+    margin: 1rem auto;
+    width: 80%;
+}
+.home {
+    background-image: url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    background-size: cover;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 440px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+.top_left {
+    position: absolute;
+    top: 220px;
+    left: 220px;
+}
+
+.bottom_right {
+    position: absolute;
+    bottom: 220px;
+    right: 220px;
+}
+
+main section { 
+
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.about_info_one {
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    margin-left: 40px;
+    width: 700px;
+}
+
+.about_info_two {
+    font-size: 14px;
+    width: 255px;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.about_info_three {
+    font-size: 14px;
+    width: 275px;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.about_image_one {
+    width: 350px;
+    height: 550px;
+    transform: scaleX(-1);
+    position: absolute;
+    left: 1000px;
+    top: 850px;
+}
+
+.about_image_two {
+    width: 260px;
+    height: 400px;
+    position: absolute;
+    left: 185px;
+    top: 1000px;
+
+}
+
+.product_image {
+    width: 275px;
+    height: 240px;
+}
+
+.hr_about_title {
+    width: 55%; 
+    height:4px; 
+    background-color: black; 
+    border: none;
+    text-align: left;
+    margin-left: 0;
+}
+
+.hr_product_title {
+    width: 55%; 
+    height:4px; 
+    background-color: black; 
+    border: none;
+    text-align: left;
+    margin-left: 0;
+}
+
+.hr_product {
+    width: 60%;
+    height: 4px;
+    border: none; 
+    background-color: black;
+    text-align: left;
+    margin-left: 0;
+}
+.prod_info_container {
+    display: flex;
+}
+
+.product_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 70px;
+    row-gap: 120px;
+}
+
+.product_name {
+    font-size: 16px;
+    text-align: left;
+    padding-right: 110px;
+}
+
+.product_price {
+    font-size: 16px;
+}
+
+.prod_desc {
+    font-size: 13px;
+    text-align: left;
+    width: 250px;
+}
+
+.learn_more {
+    color: #BF7631;
+    padding-right: 70px;
+}
+
+.cart_button {
+    background-color: #BF7631;
+    border: none;
+    color: white;
+}
+
+.send_button {
+    background-color: #BF7631;
+    border: none;
+    color: white;
+    width: 62px;
+    height: 20px;
+    font-size: 10px;
+    float: right;
+    margin-right: 217px;
+}
+
+.hr_contact_title {
+    width: 55%; 
+    height:4px; 
+    background-color: black; 
+    border: none;
+    text-align: left;
+    margin-left: 0;
+}
+
+.email_title {
+    font-size: 17px;
+    margin-left: 225px;
+}
+
+.email_box {
+    width: 700px;
+    height: 25px;
+    margin-left: 225px;
+}
+
+.message_title {
+    font-size: 17px;
+    margin-left: 225px;
+}
+
+.message_box {
+    width: 700px;
+    height: 120px;
+    margin-left: 225px;
+}
+
+footer {
+    background-color: #BF7631;
+    color: black;
+    padding: 1rem;
+
+}
+
+.foot_title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer_title_image {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 12px;
+}
+
+.youtube_icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 3720px;
+    left: 380px;
+}
+
+.facebook_icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 3720px;
+    left: 450px;
+}
+
+.twitter_icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 3720px;
+    right: 450px;
+}
+
+.instagram_icon { 
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 3720px;
+    right: 380px;
+}
+
+.foot_info_one {
+    font-size: 10px;
+    position: absolute;
+    top: 3760px;
+    left: 380px;
+}
+
+.foot_info_two {
+    font-size: 10px;
+    position: absolute;
+    top: 3760px;
+    right: 380px;
+}
+
+.copyright {
+    font-size: 10px;
+    position: absolute;
+    top: 3760px;
+    right: 50px;
+}
